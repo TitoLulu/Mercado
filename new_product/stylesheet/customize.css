@@ -1,0 +1,287 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: arial;
+
+}
+.headArea{
+    height: 20%;
+    width: 100%;
+    /*background-color: limegreen;*/
+    background-image: url('../images/headerImage.jpg');
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+    background-position: center;
+}
+
+.menuItems{
+    width: 100%;
+    height: 14%;
+    background-color:#e9e4f0;
+    margin-top: 1%;
+
+
+}
+.menuItems a{
+    float: left;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px; 
+    margin-top: 1%;
+
+
+}
+.menuItems a:hover{
+    background-color:#f05053; 
+    color:#d31027;
+}
+.menuItems a.active{
+    background-color:#74ebd5;
+    color: white; 
+}
+.menuItems .searchArea{
+    float:right;
+    margin-top: 2%;
+
+}
+.menuItems input[type=text]{
+    border: none;
+    font-size: 24px;
+    padding: 0;
+
+}
+#shopCart{
+    margin-top: 2%;
+}
+.menuItems .searchArea button{
+    font-size: 24px;
+    padding: 0;
+    border:none;
+    float: right;
+}
+
+.menuItems .searchArea button:hover {
+  background: #ccc;
+}
+
+
+#contentContainer{
+    width: 100%;
+    height: 60%;
+    margin-top:1%;
+    margin-bottom: 1%;
+
+}
+/* sidebar style*/
+.sidebarArea{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding-left: 0;
+    background-color: paleturquoise;
+}
+.sidebarArea li{
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+}
+
+/*breadcrumb style*/
+
+.breadcrumbsArea{
+    height: 20%;
+    width: 73%;
+    float: right;
+    margin-left: 2%;
+    background-color:#d3cce3;
+}
+.breadcrumbsArea #shopCart{
+    margin-top: 2%;
+    float: right;
+}
+.breadcrumbsArea h2{
+    margin-left: 4%;
+}
+
+/*content area style*/
+
+.contentArea{
+    height: 75%;
+    width: 73%;
+    float: right;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+
+ #item1{
+    width: 32.6%;
+    float: left;
+    border: 2px solid red;
+    margin: 1%;
+
+    
+}
+
+
+
+/*button style*/
+#item1 .but{
+    position: absolute;
+    top: 80%;
+    left: 39.5%;
+    font-weight: bold;
+    font-size: 21px;
+    background-color:#74ebd5; 
+}
+
+
+
+/*price style*/
+#item1 p{
+    position:absolute;
+    top:75%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/*footer style*/
+
+.footerArea{
+    height: 15%;
+    width: 100%;
+    background-color:pink;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    bottom: 0;
+}
+.footerArea div {
+    margin-left: 43%;
+
+}
+.footerArea #copyr{
+    padding-top: 2%;
+}
+.footerArea #dayTime {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 4%;
+}
+/*addnewProdct*/
+.formField{
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 4%;
+    background-color: #fffbd5;
+;
+}
+
+.formField input{
+    margin-top:1%;
+    width: 100%;
+}
+/*product view page style*/
+.productView{
+    height: 75%;
+    width:100%;
+    margin-top: 4%;
+}
+
+.prodPicture {
+    height: 100%;
+    width: 50%;
+    float: left;
+
+
+}
+.prodPicture img{
+    height:95%;
+    width:100%;
+    background-image: url('../images/item2.jpg');
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-style: 0;
+
+}
+
+.prodDetails{
+    height:95%;
+    width:50%;
+    float: right;
+    
+}
+.prodDetails p{
+    color: #00b09b;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.prodDetails input[type=text]{
+    border: none;
+    font-size: 24px;
+    padding: 0;
+
+}
+.prodDetails form{
+    margin-left: 40%;
+}
+
+/* Style the tab */
+.descriptionTab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+/* Style the buttons inside the tab */
+.descriptionTab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.descriptionTab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.descriptionTab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.contentPage {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*add new product page*/
+.addnewprod{
+    width: 50%;
+    height:50%;
+}

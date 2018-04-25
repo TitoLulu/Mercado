@@ -1,0 +1,31 @@
+#orderDtl{
+	padding-left: 30%;
+}
+#custdtls{
+	padding-left: 28%;
+}
+#msg{
+	padding-left: 32%;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table {
+    border-spacing: 15px;
+}
+
+h3{
+
+	color: green;
+}
+
+#paypal {
+	padding-left: 30%;
+	padding-top: 10%;
+}
+#paybut {
+	position: center;
+	height: 20%;
+	width: 27%;
+}
